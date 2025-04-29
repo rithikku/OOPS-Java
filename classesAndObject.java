@@ -21,7 +21,8 @@ class Student {
 
   // Copy constructor
   Student(Student s3) {
-    System.out.println("constructor called");
+    this.name = s3.name;
+    this.age = s3.age;
   }
 }
 
